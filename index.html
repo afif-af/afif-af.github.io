@@ -1,58 +1,272 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+
+    <title>Afif AF</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- css for desktop -->
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 992px)">
 
 </head>
 <body>
 
-<div class="container">
-    <div class="header">
-        <p class="ptitle">WEB DEVELOPER PROGRAMMER</p>
-        <p class="pname">MD. AFIF AFROZ FAHIM</p>
-        <nav class="nav">
-            <ul class="ul">
-                <li> <a href="#about">About </a> </li>
-                <li > <a href="#project">Project</a> </li>
-                <li><a href="#contract">Contract</a> </li>
-            </ul>
-        </nav>
+<!--    navbar start-->
+   <div class="navbar">
+        <div class="nav-logo col-2">
+         <img class="logo_image" src="images/logo.png" alt="Afif AF">
+        </div>
+       <div class="nav-heading col-4">
+          <h1>Afif AF</h1>
+       </div>
+       <div class="navbar-menu col-6">
+           <a href="#">Home</a>
+           <a href="#about-me-id">About</a>
+           <a href="#skill-id">Skill</a>
+           <a href="#contact-id">Contact</a>
+
+
+       </div>
+  </div>
+
+<!--profile start here-->
+<div class="profile">
+    <img class="top-weather-icon" src="images/weather_icon.png" width="100px " height="100px" alt="">
+    <div class="profile-desc">
+        <h1>I am a Student at CSTU <br> & <br> Web Developer</h1>
+        <p>Hi! My Name is Md. Afif A F. Welcome to my personal page that I've designed to showcase my skills and expertise that I've accumulated over the year.</p>
+
     </div>
-
-    <main>
-        <div id="home">
-            <h3>Welcome to John Dean's Portfolio</h3>
-            <p>This is the home section where you can get a brief overview of the photographer's work and style.</p>
-            I am Md. Afif Afroz Fahim, I am currently pursuing BSc Engineering Degree in Computer Science and Engineering  from Chandpur Science and Technology University.
-            I am interested to Artificial intelligence and working on it.
-            I am a contest programmer with c++ programming laguage. I can also solve problems using Python and Java language..
-        </div>
-
-        <div class="project" id="project">
-            <h2>Projects</h2>
-            <ul>
-                <li><a href="https://github.com/<username>/project1">Project 1</a></li>
-                <li><a href="https://github.com/<username>/project2">Project 2</a></li>
-            </ul>
-        </div>
-
-    </main>
-    <footer>
-        <div class="footer" id="contract">
-
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:mdafifafrozfahim@gmail.com">mdafifafrozfahim@gmail.com</a>.</p>
-            <address>Phone: (123) 456-7890</address>
-
-        </div>
-
-    </footer>
-
+    <img class="bottom-weather-icon" src="images/weather_icon.png" width="100px " height="100px" alt="" >
 
 </div>
-    <script src="script.js"></script>
+
+<!--about me-->
+<div class="about-me" id ="about-me-id">
+    <h2>About Me</h2>
+    <hr class="dotted-hr">
+    <div class="about-me-image col-6">
+        <img class="about-me-image" src="images/about_me.jpg" alt="">
+
+    </div>
+    <div class="about-me-desc col-6">
+        <p>I like to call myself "a passionate Computer Science & Web developer"  </p>
+        <p>I love to learn new things.</p>
+
+        <hr class="about-me-hr">
+        <p > Name: Md. Afif AF</p>
+        <hr class="about-me-hr">
+        <p >Address: Mymensingh, Bangladesh</p>
+        <hr class="about-me-hr">
+        <p> Email:<a href="mailto:mdafifafrozfahim@gmail.com" > mdafifafrozfahim@gmail.com</a> </p>
+        <hr class="about-me-hr">
+        <p>Phone: <a href="tel:+8801635311290" > +8801635311290 </a></p>
+        <hr class="about-me-hr">
+        <p>Website: <a href="#"> Afif AF</a> </p>
+        <hr class="about-me-hr">
+        <p>
+            <a href="mailto:mdafifafrozfahim@gmail.com" target="_blank" >
+                <button class="about-me-button"> Download CV</button>
+            </a>
+        </p>
+
+
+    </div>
+
+</div>
+
+<!--professional ex-->
+
+ <div class="professional-experience">
+     <div class="work-experience col-4">
+         <div class="card">
+             <div class="card-icon">
+                 <img class="rounded-image" src="images/working.png"  width="100px" height="100px" alt="work icon">
+
+             </div>
+             <div class="card-title">
+                 <h2>Work Experience</h2>
+
+             </div>
+             <div class="card-desc">
+                 <ol>
+                     <li>
+                         <strong>Lorem ipsum dolor sit amet, consectetur </strong><br>
+                         01/05/2016–01/08/2017 <br>
+                         Lorem ipsum dolor sit amet, consectetur <br>
+                         Lorem ipsum dolor sit amet, consectetur (Bangladesh) <br>
+                     </li>
+                     <hr>
+                     <li>
+                         <strong>Lorem ipsum dolor sit amet, consectetur</strong> <br>
+                         10/11/2017–06/04/2018 <br>
+                         Lorem ipsum dolor sit amet, consectetur <br>
+                         Lorem ipsum dolor sit amet, consectetur (Bangladesh) <br>
+                     </li>
+                     <hr>
+                     <li>
+                         <strong>Lorem ipsum dolor sit amet, consectetur</strong> <br>
+                         01/07/2018–11/11/2018 <br>
+                         Lorem ipsum dolor sit amet, consectetur <br>
+                         Lorem ipsum dolor sit amet, consectetur (Bangladesh)<br>
+                     </li>
+                     <hr>
+                     <li>
+                         <strong>Lorem ipsum dolor sit amet, consectetur</strong> <br>
+                         28/01/2010–Running <br>
+                         Lorem ipsum dolor sit amet, consectetur <br>
+                         Lorem ipsum dolor sit amet, consectetur<br>
+                         <a href="https://www.youtube.com/@afif.20" target="blank">Visit my YouTube Channel</a><br>
+                     </li>
+
+                 </ol>
+
+             </div>
+         </div>
+
+
+     </div>
+     <div class="education col-4">
+         <div class="card">
+             <div class="card-icon">
+                 <img class="rounded-image" src="images/books.png"  width="100px" height="100px" alt="work icon">
+             </div>
+             <div class="card-title">
+                 <h2>EDUCATION AND TRAINING</h2>
+             </div>
+
+             <div class="card-desc">
+                 <ol>
+                     <li>
+                         <strong>M.Sc. in Computer Science & Engineering</strong> <br>
+                         2028-2029  <br>
+                         .... University <br>
+                         ..., ..., 33100 <br>
+                         <a href="https://www.cstu.ac.bd/" target="blank">https://www.cstu.edu.bd/</a> <br>
+                     </li>
+                     <hr>
+                     <li>
+                         <strong>B.Sc. in Computer Science & Engineering</strong> <br>
+                         2021-2022</br>
+                         Candpur Science and Technology University <br>
+                         , Ponaullah Bazar Rd, Kamal Bazar, Chandpur (Bangladesh)  <br>
+                         <a href="https://www.cstu.ac.bd/" target="blank">https://www.cstu.ac.bd/</a> <br>
+                         Result: A (.../4.00) <br>
+                     </li>
+                     <hr>
+                     <li>
+                         <strong>HSC</strong> <br>
+                         2018-2020 <br>
+                         Notre Dame College Mymensingh <br>
+                         barera, Maskanda, Mymensignh (Bangladesh)<br>
+                         <a href="https://ndcm.edu.bd/" target="blank">http://www.ndcm.edu.bd/</a> <br>
+                         Result: 5.00 <br>
+                     </li>
+                 </ol>
+             </div>
+         </div>
+
+
+     </div>
+
+     <div class="skills col-4" id="skill-id">
+         <div class="card">
+             <div class="card-icon">
+                 <img class="rounded-image" src="images/skill.png" width="100px" height="100px" alt="work icon">
+             </div>
+             <div class="card-title">
+                 <h2>SKILLS</h2>
+             </div>
+
+             <div class="card-desc">
+                 <div class="skills-container">
+                     <ul>
+                         <li class="html" >HTML</li>
+                         <li class="css">CSS</li>
+                         <li class="js">JavaScript</li>
+                         <li class="react">React.js</li>
+                         <li class="java">Java</li>
+                         <li class="spring">Spring</li>
+                         <li class="git">GitHub</li>
+                         <li class="react">React.js</li>
+                         <li class="react">React.js</li>
+                     </ul>
+                 </div>
+             </div>
+         </div>
+
+     </div>
+
+
+ </div>
+
+
+<!-- achievement-contact starts from here  -->
+
+<div class="achivements-contract" id="contact-id">
+
+    <div class="achivements col-3">
+        <h2> ACHIVEMENT</h2>
+        <hr class="dotted-hr">
+        <p>1.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
+        <p>2.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et  </p>
+        <p>3.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et  </p>
+
+    </div>
+    <div class="contract col-6">
+        <h2>CONTRACT ME</h2>
+        <hr class="dottedt-hr">
+        <form action="mailto:mdafifafrozfahim@gmail.com" method="post" enctype="text/plain">
+            <p><input type="text" placeholder="Your Name" name="Name:" ></p>
+            <p><input type="email" placeholder="Your Email" name="Email:" ></p>
+            <textarea rows="10" cols="30" placeholder="Your Message" name="Message:" ></textarea>
+           <button type="submit">SEND</button>
+            <button type="reset">RESET</button>
+        </form>
+
+
+    </div>
+    <div class="contract-link col-3">
+      <h2> More ways to Contract</h2>
+        <hr class="dotted">
+        <div class="media-buttons">
+            <button class="btn" onclick=window.open('https://www.facebook.com/@afifaf20') class="request-callback"><i class="fa-brands fa-facebook"  aria-hidden="true"></i></button>
+            <button class="btn" onclick=window.open('https://www.youtube.com/@afif.20')  class="request-callback"><i class="fa-brands fa-youtube"></i></button>
+            <button class="btn" onclick=window.open('https://x.com/afif_af20')  class="request-callback"> <i class="fa-brands fa-twitter"></i></button>
+            <button class="btn" onclick=window.open('https://www.instagram.com/afifaf20/')  class="request-callback"><i class="fa-brands fa-instagram"></i></button>
+            <button class="btn" onclick=window.open('https://github.com/afif-af')  class="request-callback"><i class="fa-brands fa-github"></i></button>
+
+        </div>
+
+
+    </div>
+</div>
+
+<!--footer-->
+
+<div class="footer">
+    <div class="footer-menu col-6">
+        <a href="#">Home</a>
+        <a href="#about-me-id">About Me</a>
+        <a href="#skill-id">Skill</a>
+        <a href="#contact-id">Contact Me</a>
+    </div>
+
+    <div class="footer-desc col-6">
+        &copy; Afif AF 2025. Developed with <span style="color: red; font-size: 1.5rem;">❤</span> by Afif.
+    </div>
+</div>
+<!-- footer ends here  -->
 </body>
 </html>
